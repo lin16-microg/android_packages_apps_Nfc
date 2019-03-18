@@ -2357,7 +2357,7 @@ static void com_android_nfc_NfcManager_doShutdown(JNIEnv*, jobject)
 /*
  * JNI registration.
  */
-static JNINativeMethod gMethods[] =
+static const JNINativeMethod gMethods[] =
 {
    {"doDownload", "()Z",
         (void *)com_android_nfc_NfcManager_doDownload},
